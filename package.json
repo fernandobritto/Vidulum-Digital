@@ -1,0 +1,18 @@
+{
+   "name": "vidulum-api",
+   "version": "0.0.1",
+   "description": "Personal financial control project",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "pg": "^8.4.2",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.28"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
