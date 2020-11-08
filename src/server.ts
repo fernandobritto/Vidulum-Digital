@@ -2,7 +2,7 @@ import { app } from './app'
 
 const PORT = 3000
 
-const server = 
+const server =
     app.listen(PORT, () => console.log(`App in door ${PORT}`))
 
 process.on('SIGINT', () => {

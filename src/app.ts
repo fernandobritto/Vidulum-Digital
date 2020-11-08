@@ -5,6 +5,7 @@ import * as logger from 'morgan'
 
 import { connectServerInDB  } from './config/db'
 import { routerUser } from './routes/user'
+import { routerBudget } from './routes/budget'
 
 
 /**
@@ -41,4 +42,5 @@ connectServerInDB()
  * Configuração de rotas
  */
 app.use('/user', routerUser)
+app.use('/budget', routerBudget)
 app.use('/', (req, res) => res.send('API Vidulum'))
